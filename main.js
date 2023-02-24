@@ -113,7 +113,9 @@ function precioFinal(nombre, kilo, articulo, precios){
     alert("error, reiniciar pagina")
   }
 
-  alert(`Nombre del comprador: ${nombre}\n Producto: ${producto}\n kilos: ${kilo}\n Precio final: $${precioFinal}`)
+  
+
+  alert(`Nombre del comprador: ${nombre}\n Producto: ${producto}\n kilos: ${kilo}\n Precio final: $${precioFinal * kilo}`)
 }  
     
     precioFinal(name, kilos, articulos, precios)
